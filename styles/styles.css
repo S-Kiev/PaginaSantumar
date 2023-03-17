@@ -701,6 +701,7 @@ h4 {
 
 .social-networks a:hover {
   color : var(--primary-color);
+  transform: scale(1.4);
 }
 
 .social-networks a:not(:last-of-type) {
@@ -794,10 +795,11 @@ h4 {
   order : 2;
 }
 
+
 @media screen and (min-width: 1024px) {
 
   .about-item:nth-child(odd) > div:nth-of-type(2) {
-    order : 2;
+    order : 1;
   }
 
 }
@@ -807,14 +809,15 @@ h4 {
   .about-item {
     grid-template-columns : 1fr 1fr;
     gap                   : 2rem;
-    text-align            : left;
+    text-align            : center;
   }
-
 }
+
 
 .about-item h2 {
   margin-bottom : 0.5rem;
 }
+
 
 .about-item p {
   margin-bottom : 0;
@@ -823,7 +826,7 @@ h4 {
 @media screen and (min-width: 1024px) {
 
   .about-item h2 {
-    text-align : left;
+    text-align : center;
   }
 
 }
@@ -831,6 +834,8 @@ h4 {
 .about-item img {
   border-radius : var(--border-radius);
 }
+
+
 
 /*  ----- CONTACTO -----  */
 
@@ -1008,7 +1013,7 @@ input[type="text"], input[type="email"], textarea {
 }
 
 .sobre-nosostros .content-wrapper {
-  height: 8rem; /* establecer la altura del contenido en 6rem */
+  height: 3rem; /* establecer la altura del contenido en 6rem */
 }
 
 .descripcion {
